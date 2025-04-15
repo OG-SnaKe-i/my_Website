@@ -27084,11 +27084,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- * Application component
- *
- * To contain application wide settings, routes, state, etc.
- */ var _react = require("react");
+// App.js
+var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _about = require("./Components/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
@@ -27103,15 +27100,7 @@ var _portfolioDefault = parcelHelpers.interopDefault(_portfolio);
 var _education = require("./Components/Education");
 var _educationDefault = parcelHelpers.interopDefault(_education);
 var _stylesCss = require("./styles.css");
-/**
- * This object represents your information. The project is set so that you
- * only need to update these here, and values are passed a properties to the
- * components that need that information.
- *
- * Update the values below with your information.
- *
- * If you don't have one of the social sites listed, leave it as an empty string.
- */ const siteProps = {
+const siteProps = {
     name: "Shailesh Kadam",
     title: "Software Developer | DevOps Engineer | Cybersecurity Enthusiast",
     email: "shaileshkadam000000@gmail.com",
@@ -27126,14 +27115,18 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 const educationDetails = [
     {
-        institution: "ABC University",
-        degree: "Master of Science in Software Engineering",
-        year: "2020 - 2022"
+        institution: "Lokmanya Tilak College of Engineering, Navi Mumbai, Maharashtra",
+        degree: "B.E.",
+        branch: "Computer Science and Engineering (IoT and Cybersecurity including Blockchain Technology) | Minor in AI and ML",
+        CGPA: "8.24/10",
+        year: "Oct 2021 - Present"
     },
     {
-        institution: "XYZ College",
-        degree: "Bachelor of Technology in Information Technology",
-        year: "2016 - 2020"
+        institution: "Sheth J.T.T College of Science and Arts, Thane, Maharashtra",
+        degree: "HSC - Maharashtra State Board",
+        branch: "Science",
+        percentage: "74.77%",
+        year: "May 2020"
     }, 
 ];
 const App = ()=>{
@@ -27142,7 +27135,7 @@ const App = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 59,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
@@ -27150,24 +27143,24 @@ const App = ()=>{
                 title: siteProps.title
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 60,
+                lineNumber: 49,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 61,
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {
                 educationDetails: educationDetails
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 62,
+                lineNumber: 51,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _portfolioDefault.default), {}, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 63,
+                lineNumber: 52,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {
@@ -27176,13 +27169,13 @@ const App = ()=>{
                 secondaryColor: secondaryColor
             }, void 0, false, {
                 fileName: "src/App.jsx",
-                lineNumber: 64,
+                lineNumber: 53,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/App.jsx",
-        lineNumber: 58,
+        lineNumber: 47,
         columnNumber: 5
     }, undefined);
 };
@@ -27206,11 +27199,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */ var _react = require("react");
+// Components/About.js
+var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _motionBackgroundJpg = require("../images/motion-background.jpg");
 var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
@@ -27225,7 +27215,6 @@ const skillsList = [
     "Cybersecurity tools: Nmap, Metasploit, Burp Suite, OWASP ZAP, Wireshark",
     "CI/CD, Infrastructure as Code, Containerization", 
 ];
-const detailOrQuote = "I am a detail-oriented fresher passionate about automation, cybersecurity, and cloud-native technologies. I thrive on team collaboration, adaptability, and delivering solutions that enhance system security and performance.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -27237,7 +27226,7 @@ const About = ()=>{
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 31,
+                lineNumber: 24,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27253,7 +27242,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 41,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27261,12 +27250,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 42,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 43,
+                        lineNumber: 36,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27281,39 +27270,29 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 54,
+                                lineNumber: 47,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 44,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 57,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        style: {
-                            padding: "1rem 3rem 0"
-                        },
-                        children: detailOrQuote
-                    }, void 0, false, {
-                        fileName: "src/Components/About.jsx",
-                        lineNumber: 58,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 32,
+                lineNumber: 25,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 30,
+        lineNumber: 23,
         columnNumber: 5
     }, undefined);
 };
@@ -28548,12 +28527,8 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-/**
- * Header component
- *
- * Top navigation bar for your site. Set to remain visible as the
- * user scrolls so that they can constantly reach any part of your page.
- */ var _react = require("react");
+// Components/Header.js
+var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28574,7 +28549,7 @@ const Header = ()=>{
                 children: "Home"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 24,
+                lineNumber: 20,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28582,15 +28557,24 @@ const Header = ()=>{
                 children: "About"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 25,
+                lineNumber: 21,
                 columnNumber: 7
             }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#education",
+                children: "Education"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 22,
+                columnNumber: 7
+            }, undefined),
+            " ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                 href: "#portfolio",
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 26,
+                lineNumber: 23,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28598,13 +28582,13 @@ const Header = ()=>{
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 27,
+                lineNumber: 24,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Header.jsx",
-        lineNumber: 11,
+        lineNumber: 7,
         columnNumber: 5
     }, undefined);
 };
@@ -28916,6 +28900,7 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+// Components/Education.js
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Education = ({ educationDetails  })=>{
@@ -28935,7 +28920,7 @@ const Education = ({ educationDetails  })=>{
                 children: "Education"
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 6,
+                lineNumber: 7,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28959,7 +28944,18 @@ const Education = ({ educationDetails  })=>{
                                 children: education.institution
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 19,
+                                lineNumber: 26,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                style: {
+                                    margin: "0.5rem 0",
+                                    fontWeight: "bold"
+                                },
+                                children: education.degree
+                            }, void 0, false, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 29,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28967,11 +28963,39 @@ const Education = ({ educationDetails  })=>{
                                     margin: "0.5rem 0",
                                     fontStyle: "italic"
                                 },
-                                children: education.degree
+                                children: education.branch
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 20,
+                                lineNumber: 30,
                                 columnNumber: 13
+                            }, undefined),
+                            education.CGPA && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                style: {
+                                    margin: "0.5rem 0",
+                                    color: "#555"
+                                },
+                                children: [
+                                    "CGPA: ",
+                                    education.CGPA
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 31,
+                                columnNumber: 32
+                            }, undefined),
+                            education.percentage && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                style: {
+                                    margin: "0.5rem 0",
+                                    color: "#555"
+                                },
+                                children: [
+                                    "Percentage: ",
+                                    education.percentage
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Education.jsx",
+                                lineNumber: 32,
+                                columnNumber: 38
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 style: {
@@ -28981,42 +29005,28 @@ const Education = ({ educationDetails  })=>{
                                 children: education.year
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 21,
+                                lineNumber: 33,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, index, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 9,
+                        lineNumber: 16,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 7,
+                lineNumber: 14,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Education.jsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, undefined);
 };
 _c = Education;
-Education.defaultProps = {
-    educationDetails: [
-        {
-            institution: "Example University",
-            degree: "Bachelor of Science in Computer Science",
-            year: "2015 - 2019"
-        },
-        {
-            institution: "Example High School",
-            degree: "High School Diploma",
-            year: "2013 - 2015"
-        }, 
-    ]
-};
 exports.default = Education;
 var _c;
 $RefreshReg$(_c, "Education");

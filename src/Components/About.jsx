@@ -1,8 +1,4 @@
-/**
- * About component
- *
- * Space for you to describe more about yourself.
- */
+// Components/About.js
 
 import React from "react";
 import image from "../images/motion-background.jpg";
@@ -21,9 +17,6 @@ const skillsList = [
   "Cybersecurity tools: Nmap, Metasploit, Burp Suite, OWASP ZAP, Wireshark",
   "CI/CD, Infrastructure as Code, Containerization",
 ];
-
-const detailOrQuote =
-  "I am a detail-oriented fresher passionate about automation, cybersecurity, and cloud-native technologies. I thrive on team collaboration, adaptability, and delivering solutions that enhance system security and performance.";
 
 const About = () => {
   return (
@@ -55,7 +48,6 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

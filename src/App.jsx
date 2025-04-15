@@ -1,9 +1,4 @@
-/**
- * Application component
- *
- * To contain application wide settings, routes, state, etc.
- */
-
+// App.js
 import React from "react";
 
 import About from "./Components/About";
@@ -11,18 +6,10 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import Education from "./Components/Education";
 
 import "./styles.css";
 
-/**
- * This object represents your information. The project is set so that you
- * only need to update these here, and values are passed a properties to the
- * components that need that information.
- *
- * Update the values below with your information.
- *
- * If you don't have one of the social sites listed, leave it as an empty string.
- */
 const siteProps = {
   name: "Shailesh Kadam",
   title: "Software Developer | DevOps Engineer | Cybersecurity Enthusiast",
@@ -35,9 +22,25 @@ const siteProps = {
   youTube: "",
 };
 
-
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
+
+const educationDetails = [
+  {
+    institution: "Lokmanya Tilak College of Engineering, Navi Mumbai, Maharashtra",
+    degree: "B.E",
+    branch: "Computer Science and Engineering (IoT and Cybersecurity including Blockchain Technology) | Minor in AI and ML",
+    CGPA: "8.24/10 (Up to 7th Sem)",
+    year: "Oct 2021 - Jun 2025",
+  },
+  {
+    institution: "Sheth J.T.T College of Science and Arts, Thane, Maharashtra",
+    degree: "HSC - Maharashtra State Board",
+    branch: "Science",
+    percentage: "74.77%",
+    year: "May 2020",
+  },
+];
 
 const App = () => {
   return (
@@ -45,6 +48,7 @@ const App = () => {
       <Header />
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
+      <Education educationDetails={educationDetails} />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>

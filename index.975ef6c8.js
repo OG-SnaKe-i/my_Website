@@ -27116,10 +27116,10 @@ const secondaryColor = "#D2F1E4";
 const educationDetails = [
     {
         institution: "Lokmanya Tilak College of Engineering, Navi Mumbai, Maharashtra",
-        degree: "B.E.",
+        degree: "B.E",
         branch: "Computer Science and Engineering (IoT and Cybersecurity including Blockchain Technology) | Minor in AI and ML",
-        CGPA: "8.24/10",
-        year: "Oct 2021 - Present"
+        CGPA: "8.24/10 (Up to 7th Sem)",
+        year: "Oct 2021 - Jun 2025"
     },
     {
         institution: "Sheth J.T.T College of Science and Arts, Thane, Maharashtra",
@@ -27189,7 +27189,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Header":"9Dt2F","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Education":"6QZcy"}],"kouZu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Components/About":"kouZu","./Components/Footer":"7GWgX","./Components/Home":"jIEVO","./Components/Portfolio":"lCaEt","./styles.css":"lW6qc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Components/Education":"6QZcy","./Components/Header":"9Dt2F"}],"kouZu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17a8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28517,92 +28517,7 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "twitte
 },{"./helpers/bundle-url":"lgJ39"}],"hmN7D":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "youtube.c3557793.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"9Dt2F":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2a62 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2a62.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-// Components/Header.js
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-const Header = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        style: {
-            position: "fixed",
-            display: "flex",
-            justifyContent: "center",
-            gap: "2rem",
-            background: "rgba(255,255,255,0.75)",
-            padding: "1rem",
-            top: 0,
-            width: "100%",
-            zIndex: 10
-        },
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#home",
-                children: "Home"
-            }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
-                lineNumber: 20,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#about",
-                children: "About"
-            }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
-                lineNumber: 21,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#education",
-                children: "Education"
-            }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
-                lineNumber: 22,
-                columnNumber: 7
-            }, undefined),
-            " ",
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#portfolio",
-                children: "Portfolio"
-            }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
-                lineNumber: 23,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: "#footer",
-                children: "Contact"
-            }, void 0, false, {
-                fileName: "src/Components/Header.jsx",
-                lineNumber: 24,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
-        fileName: "src/Components/Header.jsx",
-        lineNumber: 7,
-        columnNumber: 5
-    }, undefined);
-};
-_c = Header;
-exports.default = Header;
-var _c;
-$RefreshReg$(_c, "Header");
-
-  $parcel$ReactRefreshHelpers$2a62.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jIEVO":[function(require,module,exports) {
+},{"./helpers/bundle-url":"lgJ39"}],"jIEVO":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0d4d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28907,15 +28822,14 @@ const Education = ({ educationDetails  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "education",
         style: {
-            padding: "2rem",
+            padding: "3rem",
             backgroundColor: "#f9f9f9"
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                 style: {
                     textAlign: "center",
-                    fontFamily: "Arial, sans-serif",
-                    fontWeight: "bold"
+                    fontFamily: "Arial, sans-serif"
                 },
                 children: "Education"
             }, void 0, false, {
@@ -28930,10 +28844,11 @@ const Education = ({ educationDetails  })=>{
                 children: educationDetails.map((education, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         style: {
                             marginBottom: "1.5rem",
-                            padding: "1rem",
+                            padding: "3.5rem",
                             border: "1px solid #ddd",
                             borderRadius: "8px",
-                            backgroundColor: "#fff"
+                            backgroundColor: "#fff",
+                            fontFamily: "Arial, sans-serif"
                         },
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
@@ -28944,29 +28859,27 @@ const Education = ({ educationDetails  })=>{
                                 children: education.institution
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 26,
+                                lineNumber: 21,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 style: {
-                                    margin: "0.5rem 0",
-                                    fontWeight: "bold"
+                                    margin: "0.5rem 0"
                                 },
                                 children: education.degree
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 29,
+                                lineNumber: 22,
                                 columnNumber: 13
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 style: {
-                                    margin: "0.5rem 0",
-                                    fontStyle: "italic"
+                                    margin: "0.5rem 0"
                                 },
                                 children: education.branch
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 30,
+                                lineNumber: 23,
                                 columnNumber: 13
                             }, undefined),
                             education.CGPA && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28980,7 +28893,7 @@ const Education = ({ educationDetails  })=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 31,
+                                lineNumber: 24,
                                 columnNumber: 32
                             }, undefined),
                             education.percentage && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -28994,7 +28907,7 @@ const Education = ({ educationDetails  })=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 32,
+                                lineNumber: 25,
                                 columnNumber: 38
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -29005,18 +28918,18 @@ const Education = ({ educationDetails  })=>{
                                 children: education.year
                             }, void 0, false, {
                                 fileName: "src/Components/Education.jsx",
-                                lineNumber: 33,
+                                lineNumber: 26,
                                 columnNumber: 13
                             }, undefined)
                         ]
                     }, index, true, {
                         fileName: "src/Components/Education.jsx",
-                        lineNumber: 16,
+                        lineNumber: 10,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
-                lineNumber: 14,
+                lineNumber: 8,
                 columnNumber: 7
             }, undefined)
         ]
@@ -29032,6 +28945,90 @@ var _c;
 $RefreshReg$(_c, "Education");
 
   $parcel$ReactRefreshHelpers$8bef.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9Dt2F":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$2a62 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$2a62.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+// Components/Header.js
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Header = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            position: "fixed",
+            display: "flex",
+            justifyContent: "center",
+            gap: "2rem",
+            background: "rgba(255,255,255,0.75)",
+            padding: "1rem",
+            top: 0,
+            width: "100%",
+            zIndex: 10
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#home",
+                children: "Home"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#about",
+                children: "About"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 21,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#education",
+                children: "Education"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 22,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#portfolio",
+                children: "Portfolio"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 23,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "#footer",
+                children: "Contact"
+            }, void 0, false, {
+                fileName: "src/Components/Header.jsx",
+                lineNumber: 24,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/Components/Header.jsx",
+        lineNumber: 7,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Header;
+exports.default = Header;
+var _c;
+$RefreshReg$(_c, "Header");
+
+  $parcel$ReactRefreshHelpers$2a62.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
